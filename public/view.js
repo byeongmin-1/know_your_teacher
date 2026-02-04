@@ -2,14 +2,15 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js';
 import { getFirestore, collection, query, orderBy, getDocs } from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js';
 
-// TODO: Replace with your Firebase config
+// Your web app's Firebase configuration (inserted per your request)
 const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME"
+  apiKey: "AIzaSyD_89lU872HPZ_OVC6oNbzpsb4pd0ITJcc",
+  authDomain: "know-your-teacher-fb9c9.firebaseapp.com",
+  projectId: "know-your-teacher-fb9c9",
+  storageBucket: "know-your-teacher-fb9c9.firebasestorage.app",
+  messagingSenderId: "351221379995",
+  appId: "1:351221379995:web:6ec38b3f7ae863cfbf273e",
+  measurementId: "G-54NYWN2YP4"
 };
 
 const app = initializeApp(firebaseConfig);
